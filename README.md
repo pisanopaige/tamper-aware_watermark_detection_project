@@ -12,20 +12,19 @@ This project explores a lightweight deep learning system for detecting invisible
 ---
 
 ## Repository Structure
-.
-├── build_dataset.py # Generate and label training/validation/test datasets
-├── build_unseen_dataset.py # Create compound-tampered evaluation set
-├── generate_images.py # Generate watermarked and non-watermarked images via Stable Diffusion
-├── generate_prompts.py # Text prompts for image generation
-├── apply_tampering.py # JPEG, noise, blur, crop tampering functions
-├── attack_mobilenet.py # Adversarial attack generation (FGSM, PGD)
-├── mobilenet_model.py # MobileNetV3-Small classifier architecture
-├── train_baseline.py # Train on untampered data
-├── train_experimental.py # Train on tampered + untampered data
-├── train_finetuned.py # Fine-tune baseline on tampered data
-├── evaluate_model.py # Evaluate models and generate confusion matrices, metrics
-├── visualize_feature_maps.py # Visualize intermediate Conv layer activations
-└── run_detection_pipeline.py # Full detection pipeline orchestration
+- build_dataset.py # Generate and label training/validation/test datasets
+- build_unseen_dataset.py # Create compound-tampered evaluation set
+- generate_images.py # Generate watermarked and non-watermarked images via Stable Diffusion
+- generate_prompts.py # Text prompts for image generation
+- apply_tampering.py # JPEG, noise, blur, crop tampering functions
+- attack_mobilenet.py # Adversarial attack generation (FGSM, PGD)
+- mobilenet_model.py # MobileNetV3-Small classifier architecture
+- train_baseline.py # Train on untampered data
+- train_experimental.py # Train on tampered + untampered data
+- train_finetuned.py # Fine-tune baseline on tampered data
+- evaluate_model.py # Evaluate models and generate confusion matrices, metrics
+- visualize_feature_maps.py # Visualize intermediate Conv layer activations
+- run_detection_pipeline.py # Full detection pipeline orchestration
 
 ---
 
