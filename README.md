@@ -1,5 +1,5 @@
 # Robust Watermark Detection using Tamper-Aware Training for AI-Generated Image Integrity
-This project explores a lightweight deep learning system for detecting invisible watermarks in AI-generated images—even when those images have been tampered with or attacked. It combines **Stable Diffusion**, **Meta's Stable Signature**, and a tamper-aware **MobileNetV3-Small** classifier to assess watermark presence under multiple distortion scenarios.
+This project explores a lightweight deep learning system for detecting invisible watermarks in AI-generated images, even when those images have been tampered with or attacked. It combines **Stable Diffusion**, **Meta's Stable Signature**, and a tamper-aware **MobileNetV3-Small** classifier to assess watermark presence under multiple distortion scenarios.
 
 ---
 
